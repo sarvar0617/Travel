@@ -4,7 +4,7 @@
   display: none;
 }
 .header hr {
-  background-color: #E4E6E8;
+  background-color: #e4e6e8;
   border: none;
   height: 2px;
 }
@@ -1138,11 +1138,23 @@
   font-size: 52px;
   padding-top: 70px;
 }
+@media (max-width: 768px) {
+  .eleven-section .get {
+    font-size: 35px;
+    text-align: center;
+  }
+}
 .eleven-section .based {
   font-size: 20px;
   color: #737373;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .eleven-section .based {
+    font-size: 18px;
+    text-align: center;
+  }
 }
 .eleven-section .cultur {
   display: flex;

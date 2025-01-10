@@ -1,14 +1,12 @@
 .header {
   $main-font: Manrope;
-  .menu_icon{
+  .menu_icon {
     display: none;
   }
-  hr{
-    background-color: #E4E6E8;
+  hr {
+    background-color: #e4e6e8;
     border: none;
-   height: 2px;
-   
-    
+    height: 2px;
   }
   .first-header {
     display: flex;
@@ -27,7 +25,7 @@
     .header-div1 {
       display: flex;
       gap: 20px;
-      p{
+      p {
         font-family: $main-font !important;
         display: flex;
         align-items: center;
@@ -59,7 +57,6 @@
     }
   }
   nav {
-
     display: flex;
     width: 90%;
     margin: auto;
@@ -117,36 +114,35 @@
       }
     }
   }
-  @media (max-width:1460px) {
+  @media (max-width: 1460px) {
     display: flex;
     align-items: center;
-    nav{
-        .local-btn{
-            img{
-                display: none;
-            }
+    nav {
+      .local-btn {
+        img {
+          display: none;
         }
-    }
-    .menu_icon{
-        display: block !important;
-        margin-right: 20px;
-        font-size: 40px;
-        padding-top: 7px;
       }
-}
-@media (max-width:768px) {
-    nav{
-        .local-btn{
-         a{
-            display: none;
-         }   
-        }
-        div{
-            img{
-                padding-left: 20px;
-            }
-        }
     }
-}
-
+    .menu_icon {
+      display: block !important;
+      margin-right: 20px;
+      font-size: 40px;
+      padding-top: 7px;
+    }
+  }
+  @media (max-width: 768px) {
+    nav {
+      .local-btn {
+        a {
+          display: none;
+        }
+      }
+      div {
+        img {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
 }
