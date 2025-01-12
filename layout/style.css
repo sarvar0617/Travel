@@ -464,7 +464,7 @@
   transition: 0.5s;
 }
 .third-section .tours-menu .tour-container:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 @media (max-width: 768px) {
   .third-section .tours-menu .tour-container .bottom-tour h1 {
