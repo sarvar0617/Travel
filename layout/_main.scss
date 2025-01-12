@@ -177,6 +177,10 @@ $main-font: Manrope;
       padding-right: 20px;
       font-size: 40px;
     }
+    @media (max-width: 768px){
+      padding-top: 600px;
+    }
+    
   }
   .about-second {
     font-size: 20px;
@@ -530,7 +534,7 @@ $main-font: Manrope;
       position: relative;
       transition: 0.5s;
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
       h1 {
         padding-top: 10px;
