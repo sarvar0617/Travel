@@ -1,0 +1,93 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  background-color: rgb(255, 138, 48);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  margin: auto;
+  display: none;
+  font-family: "Poppins", sans-serif;
+}
+.none {
+  display: block;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 16px;
+
+  input {
+    width: 100%;
+    padding: 12px 16px 12px 40px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+  }
+
+  i {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.remember-forgot-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: #32cdd5;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.dont-have-an-account {
+  margin-top: 12px;
+  color: white;
+}
+
+.register-link {
+  color: #32cdd5;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

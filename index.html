@@ -13,9 +13,32 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style/sidebar.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="sidebar.js" defer></script>
+    <script src="modal.js" defer></script>
   </head>
   <body>
+    <div class="modal">
+      <form class="forum">
+        <h1 class="login-title">Login</h1>
+        <section class="input-box">
+          <input type="text" name="username" placeholder="Username" />
+          <i class="bx bxs-user"></i>
+        </section>
+        <section class="input-box">
+          <input type="password" name="password" placeholder="Password" />
+          <i class="bx bxs-lock-alt"></i>
+        </section>
+        <section class="remember-forgot-box">
+          <div class="remember-me">
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            <label for="remember-me">Remember me</label>
+          </div>
+          <a href="#" class="forgot-password">Forgot password?</a>
+        </section>
+        <button class="login-button" type="submit">Login</button>
+        <p class="dont-have-an-account">Don't have an account?</p>
+        <a href="#" class="register-link">Register</a>
+      </form>
+    </div>
     <div class="sidebar">
       <div class="sidebar_icon">
         <i class="bx bx-x"></i>
@@ -82,7 +105,7 @@
           <li>Contact<i class="bx bxs-chevron-down"></i></li>
         </ul>
         <div class="local-btn">
-          <a href="#">Become Local Expert</a>
+          <a href="#" class="contact-btn" onclick="contactFn()">Contact</a>
           <img src="images/Clip path group.png" alt="" />
         </div>
       </nav>
