@@ -91,3 +91,14 @@
     text-decoration: underline;
   }
 }
+.forum {
+  position: relative;
+  .bx-x {
+    font-size: 25px;
+    color: gainsboro;
+    z-index: 10000;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
